@@ -1,6 +1,5 @@
 FROM almalinux:9
-LABEL COURSE = "DevSecops" \
-      TRAINER = "Siva" \
-      DURATION = "140HR"
+LABEL COURSE="DevSecops" \
+      TRAINER="Siva" \
+      DURATION="140HR"
 
-      
