@@ -1,0 +1,5 @@
+FROM almalinux:9
+ENV COURSE="Docker" \
+    TRAINER="Siva"  \
+    TIME="9HR"
+CMD ["sleep", "1000"]    
