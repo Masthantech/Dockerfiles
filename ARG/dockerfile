@@ -1,0 +1,6 @@
+FROM almalinux:9
+ENV COURSE="docker" \
+    TRAINER="siva"
+ARG TIME="9HR" 
+RUN echo "I am learning ${COURSE}, trainer is ${TRAINER} and total time is ${TIME}"   
+CMD ["sleep", "1000"]
